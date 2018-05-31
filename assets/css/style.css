@@ -1,0 +1,165 @@
+body {
+  background: url("https://www.toptal.com/designers/subtlepatterns/patterns/tic-tac-toe.png");
+  background-repeat: repeat;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.container-bg {
+  padding: 1%;
+  background-color: #fff;
+}
+
+section {
+  max-width: 960px;
+  position: relative;
+  background-color: #ffffff;
+  padding: 1.5%;
+}
+
+article {
+  width: 70%;
+}
+
+/* Classes & IDs */
+
+.logo {
+  display: inline;
+  font-size: 28px;
+  font-weight: bold;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  color: #ffffff;
+}
+
+/* #logo-link {
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  padding-top: 2%;
+  padding-bottom: 1.36%;
+  background-color: #017ae1;
+  background-position: center;
+  color: #ffffff;
+} */
+
+
+/* .portfolio-row1 {
+  float: left;
+  margin-right: 2%;
+  width: 31%;
+  display: inline-block;
+}
+
+.portfolio-row2 {
+  float: left;
+  margin-top: 2%;
+  max-width: 31%;
+  display: inline-block;
+} */
+
+.active-link {
+  color: #017ae1;
+  font-weight: bold;
+}
+
+.section-header {
+  padding-bottom: 1%;
+  margin-bottom: 2%;
+  border-bottom: 2px;
+  border-style: solid;
+  border-color: #ddd;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  padding-top: 1.5%;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+
+/* Navigation & Typography */
+
+.navigation {
+  padding-top: 1%;
+  display: inline-block;
+  float: right;
+  color: #808080;
+}
+
+ol.nav-links {
+  display: inline-block;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+li {
+  list-style: none;
+  display: inline-block;
+}
+
+p {
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2em;
+  color: #808080;
+}
+
+h1 {
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 24px;
+  font-weight: bold;
+  color: #017ae1;
+}
+
+/* Form */
+
+#contact-form{
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-size: 14px;
+  color: #808080;
+}
+
+input {
+  margin-bottom: 1%;
+  border: 1px solid;
+  border-color: #ccc;
+  border-radius: 2px;
+}
+
+textarea {
+  resize: none;
+  border: 1px solid;
+  border-color: #ccc;
+  border-radius: 2px;
+}
+
+input[value] {
+  color: #ccc;
+}
+
+input[type=button], input[type=submit], input[type=reset] {
+    background-color: #017ae1;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+}
+
+input[type=text] {
+  width: 40.5%;
+}
+
+input[type=submit] {
+  width: 10%;
+}
+
+
+@media (max-width: 700px) {
+
+  .container-bg {
+    padding: 3%;
+    background-color: #fff;
+  }
+}
