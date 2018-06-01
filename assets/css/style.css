@@ -115,4 +115,8 @@ input[type=submit] {
     padding: 3%;
     background-color: #fff;
   }
+
+  .second-img, .third-img {
+    padding-top: 6%;
+  }
 }
