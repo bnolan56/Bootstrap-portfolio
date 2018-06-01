@@ -4,13 +4,6 @@ body {
   font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
 }
 
-.container-bg {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  margin-bottom: 6rem;
-  background-color: #fff;
-}
-
 a {
   text-decoration: none;
   color: #808080;
@@ -23,8 +16,11 @@ a:hover {
 
 /* Classes & IDs */
 
-.link {
-  color: #808080;
+.container-bg {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 6rem;
+  background-color: #fff;
 }
 
 #logo {
